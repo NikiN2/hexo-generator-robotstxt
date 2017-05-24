@@ -1,5 +1,5 @@
 {
-  "name": "hexo-generator-robotstxt",
+  "name": "hexo-generator-robotstxt-host",
   "author": "allimist",
   "description": "Basic robots.txt generator plugin for Hexo with Host options",
   "homepage": "http://animalbody.ga",
