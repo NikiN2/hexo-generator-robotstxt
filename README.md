@@ -9,9 +9,11 @@ A very simple plugin to generate a robots.txt file automatically for [Hexo 3](ht
 ```
 npm install hexo-generator-robotstxt-host --save
 ```
-or chenge hexo packege.jsom
-```
+Or update hexo package.json
 "hexo-generator-robotstxt": "^0.2.0", -> "hexo-generator-robotstxt-host": "^0.2.0",
+Then
+```
+npm update
 ```
 ### Enable
 
