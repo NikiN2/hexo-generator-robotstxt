@@ -20,6 +20,10 @@ hexo.extend.generator.register('robotstxt', function(locals){
 			if( cfg.sitemap ) {
 				body += "Sitemap: " + cfg.sitemap + "\n";
 			}
+			
+			if( cfg.host ) {
+				body += "Host: " + cfg.host + "\n";
+			}
 
 			return body;
 		}
