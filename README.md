@@ -7,9 +7,12 @@ A very simple plugin to generate a robots.txt file automatically for [Hexo 3](ht
 ### Install
 
 ```
-npm install hexo-generator-robotstxt --save
+npm install hexo-generator-robotstxt-host --save
 ```
-
+or chenge hexo packege.jsom
+```
+"hexo-generator-robotstxt": "^0.2.0", -> "hexo-generator-robotstxt-host": "^0.2.0",
+```
 ### Enable
 
 Add `hexo-generator-robotstxt` to `plugins` in `_config.yml`.
